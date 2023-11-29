@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        div {
+            width: 100px;
+            height: 100px;
+            color: white;
+            background-color: blue;
+            position: relative;
+        }
+    </style>
+    <script type="text/javascript">
+        function mudarCor() {
+            var caixa = document.getElementById("caixa").style = "background-color: khaki; left: 300px"
+            
+        }
+        function aleatorio (){
+            let alet1, alet2 
+
+            alet1=Math.floor(Math.random(0) * max);
+            alet2=Math.floor(Math.random(0) * max);
+
+            percorre.style = 'left: ${alet1}px; top: ${alet2}px;'
+    </script>
+        <title>Sinistro</title>
+</head>
+<body>
+    <div id="caixa" onclick="mudarCor()">Caixa</div>
+    <br>
+    <div id="corredor" onmouseover="document.getElementById('corredor').style.left='500px'">Caixa 2</div>
+</body>
+</html>
